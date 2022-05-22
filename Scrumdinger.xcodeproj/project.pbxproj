@@ -25,6 +25,8 @@
 		C6AA9E04281A2DB200AEDDF6 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA9E03281A2DB100AEDDF6 /* AVPlayer+Ding.swift */; };
 		C6AA9E07281A2DF600AEDDF6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9E06281A2DF600AEDDF6 /* ding.wav */; };
 		C6AA9E09281A56EB00AEDDF6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA9E08281A56EB00AEDDF6 /* History.swift */; };
+		C6B1F9B9283A6D1F009D51E4 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1F9B8283A6D1F009D51E4 /* ErrorWrapper.swift */; };
+		C6B1F9BB283AAA55009D51E4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B1F9BA283AAA55009D51E4 /* ErrorView.swift */; };
 		C6C17C47281997DA00208919 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C17C46281997D900208919 /* ScrumTimer.swift */; };
 		C6C17C4928199B2900208919 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C17C4828199B2900208919 /* MeetingFooterView.swift */; };
 		C6C5C39928145955008ADB93 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C5C39828145955008ADB93 /* DetailEditView.swift */; };
@@ -50,6 +52,8 @@
 		C6AA9E03281A2DB100AEDDF6 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		C6AA9E06281A2DF600AEDDF6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		C6AA9E08281A56EB00AEDDF6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		C6B1F9B8283A6D1F009D51E4 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		C6B1F9BA283AAA55009D51E4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		C6C17C46281997D900208919 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		C6C17C4828199B2900208919 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		C6C5C39828145955008ADB93 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 				C69C091828139A3000589B34 /* DetailView.swift */,
 				C6C5C39828145955008ADB93 /* DetailEditView.swift */,
 				C66B9A5A2817659A00FFDC36 /* ThemeView.swift */,
+				C6B1F9BA283AAA55009D51E4 /* ErrorView.swift */,
 				C66B9A5C281767D100FFDC36 /* ThemePicker.swift */,
 				C66B9A60281786AC00FFDC36 /* ScrumProgressViewStyle.swift */,
 				C66B9A5E28177E2E00FFDC36 /* MeetingHeaderView.swift */,
@@ -122,6 +127,7 @@
 				C64392DB28137CBE006C571F /* DailyScrum.swift */,
 				C6AA9E08281A56EB00AEDDF6 /* History.swift */,
 				C61E44F6282F3C3E00D14CB7 /* ScrumStore.swift */,
+				C6B1F9B8283A6D1F009D51E4 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,10 +221,12 @@
 				C69C091928139A3000589B34 /* DetailView.swift in Sources */,
 				C66B9A5F28177E2E00FFDC36 /* MeetingHeaderView.swift in Sources */,
 				C6C5C39928145955008ADB93 /* DetailEditView.swift in Sources */,
+				C6B1F9B9283A6D1F009D51E4 /* ErrorWrapper.swift in Sources */,
 				C64392CD2813732A006C571F /* MeetingView.swift in Sources */,
 				C66B9A5D281767D100FFDC36 /* ThemePicker.swift in Sources */,
 				C64392DA28137A16006C571F /* Themes.swift in Sources */,
 				C69C091728138ECB00589B34 /* ScrumsView.swift in Sources */,
+				C6B1F9BB283AAA55009D51E4 /* ErrorView.swift in Sources */,
 				C64392E0281386FD006C571F /* TrainlingIcon.swift in Sources */,
 				C64392CB2813732A006C571F /* ScrumdingerApp.swift in Sources */,
 				C64392DE28137E31006C571F /* CardView.swift in Sources */,
